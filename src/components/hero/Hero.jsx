@@ -1,4 +1,5 @@
 import "./hero.scss";
+import { useRef } from "react";
 import { motion } from "framer-motion";
 
 const textVariants = {
@@ -38,6 +39,13 @@ const sliderVariants = {
 };
 
 const Hero = () => {
+  const contactRef = useRef(null);
+
+  const scrollToContact = () => {
+    if (contactRef.current) {
+      contactRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <div className="hero">
       <div className="wrapper">
@@ -53,7 +61,10 @@ const Hero = () => {
             <motion.button variants={textVariants}>
               See the Latest Works
             </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+
+            <motion.button variants={textVariants} onClick={scrollToContact}>
+              Contact Me
+            </motion.button>
           </motion.div>
           <motion.img
             variants={textVariants}

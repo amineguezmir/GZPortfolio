@@ -37,13 +37,13 @@ const Services = () => {
       <motion.div className="textContainer" variants={variants}>
         <p>
           I specialize in enhancing your online presence
-          <br /> through web development
+          <br /> through web and mobile development
         </p>
         <hr />
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
-          <img src="/people.webp" alt="" />
+          <img src="/work.jpg" alt="" />
           <h1>
             <motion.b whileHover={{ color: "orange" }}>End-to-End</motion.b>{" "}
             Ideas for
