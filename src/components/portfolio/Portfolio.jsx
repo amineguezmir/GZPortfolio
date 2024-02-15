@@ -6,13 +6,13 @@ const items = [
   {
     id: 1,
     title: "Codini",
-    img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    img: "/codini.png",
     desc: "Dynamic e-learning platform offering interactive quizzes, engaging games, and comprehensive courses. Secure payment integration ensures seamless transactions. Enjoy access on both mobile and web platforms for flexible learning anytime, anywhere.",
   },
   {
     id: 2,
     title: "Hannibal",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    img: "hannibal.png",
     desc: "Efficient e-commerce platform providing seamless browsing, secure transactions, and personalized user experiences. Explore a vast range of products with ease, enhanced by intuitive navigation and swift checkout processes.",
   },
   {
