@@ -22,7 +22,7 @@ const items = [
   {
     id: 3,
     title: "BuyMe All",
-    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    img: "download.png",
     desc: "Streamlined e-commerce hub offering a diverse product range, intuitive navigation, and secure transactions. Elevate your shopping experience with seamless browsing and convenient checkout options.",
     sourceCode: "https://github.com/Reafactor-Project/Leagacy-Project",
   },
