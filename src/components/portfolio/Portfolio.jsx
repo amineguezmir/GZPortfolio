@@ -21,7 +21,7 @@ const items = [
   },
   {
     id: 3,
-    title: "BuyMe All",
+    title: "Buy Me All",
     img: "download.png",
     desc: "Streamlined e-commerce hub offering a diverse product range, intuitive navigation, and secure transactions. Elevate your shopping experience with seamless browsing and convenient checkout options.",
     sourceCode: "https://github.com/Reafactor-Project/Leagacy-Project",
